@@ -1,0 +1,1 @@
+My landing page project made while following the Odin Project prompts. 

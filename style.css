@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    font-family: Roboto, sans-serif;
+    flex-direction: column;
+    margin: 0px;
+}
+
+nav {
+    background-color: #1f2937;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+a.menu-item {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+
+#hero {
+    font-size: 48;
+    font-weight: 900;
+    color: #f9faf8;
+    line-height: 1em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.first-block {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    align-items: center;
+}
+
+.right-panel {
+    display: flex;
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding:8px 16px;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cards {
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.square {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.info-group p {
+    width: 150px;
+}
+
+.third-block {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 100px 150px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.box-left {
+
+}
+
+.cta-head {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+#cta-button {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    height: 50px;
+}
